@@ -43,12 +43,15 @@ The dataset was imbalanced, so the following was performed during image preproce
 To run the project you need to download datasets and put them into `src/image_segmentation/assets/data`
 
 ## Architecture
-**Model:** Unet
-**Loss function:** dice_p_bce
-**Optimizer:** Adam(lr = 1e-3)
+* **Model:** Unet
+* **Loss function:** dice_p_bce
+* **Optimizer:** Adam(lr = 1e-3)
 
 ## Results
-**N_EPOCHS** = 32
-**MAX_TRAIN_STEPS** = 10
-**IMG_SIZE** = (256, 256)
-**VAL_DICE_COEF** = 0.5305
+* **N_EPOCHS** = 32
+* **MAX_TRAIN_STEPS** = 10
+* **IMG_SIZE** = (256, 256)
+* **VAL_DICE_COEF** = 0.5305
+
+### Example
+![alt text]([http://url/to/img.png](https://drive.google.com/file/d/1bwMTe5EK6BEUzzDLCaOI3Oq7VzzE9NJG/view?usp=sharing))
