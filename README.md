@@ -10,6 +10,7 @@ The dataset was imbalanced, so the following was performed during image preproce
 * Stratified sampling (2000 pictures for each number of depicted ships)
 
 ## Project structure
+```
 ├── LICENSE
 ├── Makefile           <- Makefile with commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
@@ -54,7 +55,7 @@ The dataset was imbalanced, so the following was performed during image preproce
 │       └── visualize.py
 │
 └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
+```
 
 ## Installation
 ## Usage
