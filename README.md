@@ -11,6 +11,7 @@ The dataset was imbalanced, so the following was performed during image preproce
 
 ## Project structure
 ```
+├── img                <- Image used in the readme
 ├── .gitignore
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.        
 ├── README.md 
