@@ -1,6 +1,6 @@
 # airbus_ship_detection
 ## Project Description
-Deep Learning models for detecting ships in satellite images [Kaggle Airbus Competition](https://www.kaggle.com/c/airbus-ship-detection). 
+Deep Learning model for detecting ships in satellite images for [Kaggle Airbus Competition](https://www.kaggle.com/c/airbus-ship-detection). 
 
 ## Dataset
 The dataset used consisted of a set of images for training and testing, as well as a .csv file that contained rle-encoded strings for the training masks.
