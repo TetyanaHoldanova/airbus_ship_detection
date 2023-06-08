@@ -55,4 +55,4 @@ To run the project you need to download datasets and put them into `src/image_se
 * **VAL_DICE_COEF** = 0.5305
 
 ### Example
-![Alt text](https://drive.google.com/file/d/1bwMTe5EK6BEUzzDLCaOI3Oq7VzzE9NJG/view)
+![Example](img/example.png)
