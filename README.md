@@ -25,14 +25,14 @@ The dataset was imbalanced, so the following was performed during image preproce
         │   │   ├── test_v2          <- Folder with test images
         │   │   ├── train_v2         <- Folder with train images
         │   │   ├── results.csv      <- File with results
-        │   │   └── train_ship_segmentations_v2.csv    <- File with encoded masks  for training set
-        │   ├── model
-        │   │   ├── model.h5
-        │   │   └── model_weight.h5
+        │   │   └── train_ship_segmentations_v2.csv    <- File with encoded masks  for the training set
+        │   └── model
+        │       ├── model.h5
+        │       └── model_weight.h5
         ├── model
         │   └── unet.py            <- Scriots to build and fit model
         ├── utils
-        │   ├── dataset.py         <- Scripts to load and preproccess data
+        │   ├── dataset.py         <- Scripts to load and preprocess data
         │   ├── generators.py      <- Scripts to generate data
         │   ├── metrics.py         <- Scripts to define Dice coef and loss functions
         │   └── rle.py             <- Scripts to encode and decode masks
