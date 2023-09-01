@@ -16,7 +16,7 @@ class Unet:
         @param shape: tuple with the shape of the training set
         @return: keras.models.Models object
         '''
-        input_layer = layers.Input(shape=shape)                           # create an imput layer
+        input_layer = layers.Input(shape=shape)                           # create an input layer
         pp_in_layer = input_layer
         
         if NET_SCALING is not None:
