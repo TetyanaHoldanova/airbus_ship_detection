@@ -3,7 +3,7 @@
 Deep Learning model for detecting ships in satellite images for [Kaggle Airbus Competition](https://www.kaggle.com/c/airbus-ship-detection). 
 
 ## Dataset
-The dataset used consisted of a set of images for training and testing, as well as a .csv file that contained rle-encoded strings for the training masks.
+The dataset consisted of a set of images for training and testing, as well as a .csv file that contained rle-encoded strings for the training masks.
 The dataset was imbalanced, so the following was performed during image preprocessing:
 * Delete damaged photos with size < 50 kb
 * Resize images from 768x768 to 256x256 (optional step)
